@@ -47,7 +47,7 @@
 
 .hero-word-wrapper {
   display: inline-block;
-  overflow: hidden;
+  overflow: visible;
   vertical-align: bottom;
 }
 

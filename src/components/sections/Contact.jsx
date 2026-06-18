@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="contact-grid">
         <div className="contact-block">
           <div className="contact-block-label">Email</div>
-          <a href="official31studio@gmail.com" className="contact-block-value">official31studio@gmail.com</a>
+          <a href="mailto:official31studio@gmail.com" className="contact-block-value">official31studio@gmail.com</a>
         </div>
         <div className="contact-block">
           <div className="contact-block-label">Phone</div>
@@ -20,15 +20,15 @@ const Contact = () => {
       </div>
       <div className="contact-buttons">
         <button className="contact-btn">
-          Book a Meeting
+          <span>Book a Meeting</span>
           <svg viewBox="0 0 24 24" fill="none" stroke="#000" strokeWidth="1.5"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
         </button>
         <button className="contact-btn">
-          Start a Project
+          <span>Start a Project</span>
           <svg viewBox="0 0 24 24" fill="none" stroke="#000" strokeWidth="1.5"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
         </button>
         <button className="contact-btn">
-          View Our Work
+          <span>View Our Work</span>
           <svg viewBox="0 0 24 24" fill="none" stroke="#000" strokeWidth="1.5"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
         </button>
       </div>
