@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="contact-grid">
         <div className="contact-block">
           <div className="contact-block-label">Email</div>
-          <a href="mailto:hello@formstudio.co" className="contact-block-value">hello@formstudio.co</a>
+          <a href="official31studio@gmail.com" className="contact-block-value">official31studio@gmail.com</a>
         </div>
         <div className="contact-block">
           <div className="contact-block-label">Phone</div>
@@ -15,7 +15,7 @@ const Contact = () => {
         </div>
         <div className="contact-block">
           <div className="contact-block-label">Location</div>
-          <span className="contact-block-value">Shoreditch, London</span>
+          <span className="contact-block-value">Salatiga, Central Java</span>
         </div>
       </div>
       <div className="contact-buttons">

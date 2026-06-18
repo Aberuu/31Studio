@@ -1,13 +1,7 @@
-import { useEffect } from 'react';
 import { stats } from '../../data/stats';
 import StatCard from '../ui/StatCard';
-import { initStatsCounter } from '../../animations/statsAnimation';
 
 const Stats = () => {
-  useEffect(() => {
-    initStatsCounter();
-  }, []);
-
   return (
     <div className="stats-strip">
       {stats.map((stat, i) => (
