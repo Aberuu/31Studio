@@ -7,6 +7,12 @@
   cursor: none;
 }
 
+@media (max-width: 768px) {
+  .service-card {
+    padding: 32px 24px 48px;
+  }
+}
+
 .service-card::after {
   content: '';
   position: absolute;
@@ -128,6 +134,16 @@
 .project-item:nth-child(even) { direction: rtl; }
 .project-item:nth-child(even) * { direction: ltr; }
 
+@media (max-width: 900px) {
+  .project-item {
+    grid-template-columns: 1fr;
+  }
+  
+  .project-item:nth-child(even) {
+    direction: ltr;
+  }
+}
+
 .project-visual {
   aspect-ratio: 4/3;
   overflow: hidden;
@@ -157,6 +173,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .project-meta {
+    padding: 40px 24px;
+  }
 }
 
 .proj-tag {

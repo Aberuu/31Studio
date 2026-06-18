@@ -31,6 +31,27 @@
   background: var(--gray-200);
 }
 
+@media (max-width: 1024px) {
+  .logo-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  #clients {
+    padding: 60px 24px;
+  }
+  
+  .clients-intro {
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .logo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .logo-cell {
   background: var(--white);
   padding: 36px 28px;
