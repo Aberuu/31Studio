@@ -1,0 +1,28 @@
+.stats-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--gray-200);
+  margin-top: 0;
+  border-top: 1px solid var(--gray-200);
+}
+
+.stat-item {
+  background: var(--white);
+  padding: 48px 40px;
+}
+
+.stat-num {
+  font-size: clamp(36px, 4vw, 64px);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.stat-label {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gray-400);
+}

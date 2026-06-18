@@ -1,0 +1,32 @@
+.contact-btn {
+  flex: 1;
+  padding: 22px 40px;
+  background: var(--white);
+  border: none;
+  cursor: none;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  transition: background 0.4s var(--ease-out), color 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--black);
+  font-family: 'Inter Tight', sans-serif;
+}
+
+.contact-btn:hover {
+  background: var(--black);
+  color: var(--white);
+}
+
+.contact-btn svg {
+  width: 14px;
+  height: 14px;
+  transition: stroke 0.4s;
+}
+
+.contact-btn:hover svg {
+  stroke: var(--white);
+}

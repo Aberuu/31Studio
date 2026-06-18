@@ -1,0 +1,26 @@
+@import "./variables.css";
+@import "./reset.css";
+@import "./typography.css";
+@import "./animations.css";
+
+/* Layout */
+@import "./layout/header.css";
+@import "./layout/footer.css";
+
+/* Sections */
+@import "./sections/hero.css";
+@import "./sections/image-strip.css";
+@import "./sections/marquee.css";
+@import "./sections/services.css";
+@import "./sections/projects.css";
+@import "./sections/clients.css";
+@import "./sections/awards.css";
+@import "./sections/stats.css";
+@import "./sections/about.css";
+@import "./sections/contact.css";
+
+/* UI */
+@import "./ui/cursor.css";
+@import "./ui/progress.css";
+@import "./ui/buttons.css";
+@import "./ui/cards.css";

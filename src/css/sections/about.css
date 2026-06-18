@@ -1,0 +1,65 @@
+#about {
+  padding: 180px 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 120px;
+  align-items: start;
+}
+
+.about-headline {
+  font-size: clamp(48px, 5.5vw, 88px);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 0.95;
+  position: sticky;
+  top: 120px;
+}
+
+.about-headline em {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.about-body {
+  font-size: 16px;
+  color: var(--gray-600);
+  line-height: 1.8;
+  margin-bottom: 48px;
+}
+
+.about-services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--gray-200);
+  margin-top: 48px;
+}
+
+.about-svc {
+  background: var(--white);
+  padding: 24px 28px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: none;
+  transition: background 0.3s;
+}
+
+.about-svc:hover {
+  background: var(--black);
+  color: var(--white);
+}
+
+.about-svc span {
+  font-size: 10px;
+  color: var(--gray-400);
+  transition: color 0.3s;
+}
+
+.about-svc:hover span {
+  color: rgba(255, 255, 255, 0.4);
+}

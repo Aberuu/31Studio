@@ -1,0 +1,71 @@
+#image-strip {
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  gap: 0;
+  height: 70vh;
+  min-height: 520px;
+}
+
+.strip-item {
+  flex: 0 0 auto;
+  overflow: hidden;
+  position: relative;
+  cursor: none;
+}
+
+.strip-item:nth-child(1) { width: 38%; }
+.strip-item:nth-child(2) { width: 24%; }
+.strip-item:nth-child(3) { width: 20%; }
+.strip-item:nth-child(4) { width: 18%; }
+
+.strip-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  will-change: transform;
+  transform: scale(1.4);
+  transition: transform 0.8s var(--ease-out);
+  display: block;
+}
+
+.strip-item:hover .strip-img {
+  transform: scale(1.02);
+}
+
+.strip-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.strip-item:hover .strip-caption {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  #image-strip {
+    flex-direction: column;
+    height: auto;
+    min-height: auto;
+  }
+  
+  .strip-item {
+    width: 100% !important;
+    height: 40vh;
+    min-height: 300px;
+    cursor: default;
+  }
+}
+
+/* PLACEHOLDER IMAGE FILLS */
+.img-fill-1 { background: url(../../assets/img/photo.webp) center/cover no-repeat; }
+.img-fill-2 { background: url("../../assets/img/photo2.webp") center/cover no-repeat; }
+.img-fill-3 { background: url("../../assets/img/photo3.webp") center/cover no-repeat; }
+.img-fill-4 { background: url("../../assets/img/photo4.jpg") center/cover no-repeat; }
